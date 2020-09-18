@@ -1,0 +1,10 @@
+from sklearn import datasets
+digit_dataset = datasets.load_digits()
+#print(digit_dataset.keys())
+#print(digit_dataset['DESCR'])
+#print(digit_dataset['data'])
+#print(digit_dataset['images'].shape)
+#print(digit_dataset['target_names'])
+#print(digit_dataset.target_names)
+print(digit_dataset.images[0])
+print(digit_dataset.images[0].shape)
